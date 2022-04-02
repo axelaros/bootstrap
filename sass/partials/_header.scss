@@ -1,0 +1,22 @@
+nav {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  
+  ul {
+    display: flex;
+    list-style-type: none; }
+  
+  a {
+    text-decoration: none;
+    color: black; }
+  
+  .logo {
+    font-size: 38px;
+    color: black;
+    animation-name: movimiento;
+    transition: all 1s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; }
